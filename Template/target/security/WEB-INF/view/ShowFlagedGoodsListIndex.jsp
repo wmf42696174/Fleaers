@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="Search">
-    <form action="../goods/showallgoods" method="post">
+    <form action="../goods/showallgoods?pagenum=1" method="post">
         <p class="SearchBar">
             <span>发布人:</span>
             <select name="userid" id="userid" style="width:90px;background: #7288a9;border-radius: 3px;color:#fff;">
@@ -44,7 +44,7 @@
                 </c:forEach>
             </select>
             <span>商品名:</span>
-            <input type="text" name="name" id="name"/>
+            <input type="text" name="name" id="name" value="${goods.name}"/>
             <input type="submit" class="submit" value="查找"/>
         </p>
     </form>

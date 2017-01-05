@@ -50,23 +50,68 @@ public class RecordController {
         record.setId(rid);
         record.setTime(new Date());
         recordService.AddRecord(record);
-        ModelAndView mv=new ModelAndView();
-        mv.setViewName("main");
+        ModelAndView mv=new ModelAndView("redirect:/record/showmyrecord?pagenum=1");
+       // mv.setViewName("main");
         return mv;
     }
     @RequestMapping(value = "showmyrecord",method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView ShowMyRecord(@RequestParam(value = "time",required = false)String time,
+                                      @RequestParam(value = "pagenum",required = false)String pagenum,
                                      HttpServletRequest request){
         System.out.println("asdasdasd"+time);
         ModelAndView mv=new ModelAndView();
         Map<String,Object> parameter=new HashMap<String, Object>();
         parameter.put("time",time);
-       // SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd ");
+        int pageNum=Integer.parseInt(pagenum);
+        int current=pageNum;
+        parameter.put("pagenum",(pageNum-1)*6);
+        // SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd ");
         String buyername=(String) request.getSession().getAttribute("username");
         parameter.put("buyername",buyername);
+        int count=recordService.QueryReCount(parameter);
+        if(count%6!=0){
+            count=count/6+1;
+        }else{
+            count=count/6;
+        }
+        mv.addObject("count",count);
+        if(time!=null){
+            mv.addObject("time",time);
+        }
+        mv.addObject("currentpagenum",current);
         List<Record> recordList=recordService.QueryRecordByBuyername(parameter);
         mv.addObject("RecordList",recordList);
         mv.setViewName("ShowMyRecordListIndex");
+        return mv;
+    }
+    @RequestMapping(value = "showallrecordlist",method ={RequestMethod.POST,RequestMethod.GET})
+    public ModelAndView ShowAllRecordList(@RequestParam(value = "begintime",required = false)String begintime,
+                                          @RequestParam(value = "endtime",required = false)String endtime,
+                                          @RequestParam(value = "pagenum",required = false)String pagenum){
+        ModelAndView mv=new ModelAndView();
+        Map<String,Object> map=new HashMap<String, Object>();
+        map.put("begintime",begintime);
+        map.put("endtime",endtime);
+        int pageNum=Integer.parseInt(pagenum);
+        int current=pageNum;
+        map.put("pagenum",(pageNum-1)*6);
+        List<Record> recordList=recordService.QueryAllRecord(map);
+        int count=recordService.QueryCount(map);
+        if(count%6!=0){
+            count=count/6+1;
+        }else{
+            count=count/6;
+        }
+        mv.addObject("recordList",recordList);
+        mv.addObject("count",count);
+        if(begintime!=null){
+            mv.addObject("begintime",begintime);
+        }
+        if(endtime!=null){
+            mv.addObject("endtime",endtime);
+        }
+        mv.addObject("currentpagenum",current);
+        mv.setViewName("ShowAllRecordListIndex");
         return mv;
     }
 }

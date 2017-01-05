@@ -2,11 +2,121 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp" line="9" />
-    <bookmark url="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml" line="56" />
+    <bookmark url="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml" line="76" />
+    <bookmark url="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowGoodsList.jsp" line="81" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02e8ccb7-3040-4b00-a373-cbadc338ced2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/util/RandomUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/util/SendUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowAllRecordList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowAllRecordListIndex.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/getback.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/regist.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template/src/main/webapp/static/js/jquery.metadata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/Goods.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/Goods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/Record.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/Record.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/User.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/Want.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/bean/Want.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/GoodsMapper.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/GoodsMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/RecordMapper.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/RecordMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/WantMapper.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/mapper/WantMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/GoodsService.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/GoodsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/RecordService.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/RecordService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/UserService.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/WantService.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/service/WantService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/GoodsController.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/RecordController.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/RecordController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/UserController.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/WantController.class" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/web/WantController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/Goods.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/Goods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/Record.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/Record.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/User.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/Want.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/bean/Want.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/GoodsMapper.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/GoodsMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/RecordMapper.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/RecordMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/WantMapper.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/mapper/WantMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/GoodsService.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/GoodsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/RecordService.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/RecordService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/UserService.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/WantService.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/service/WantService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/GoodsController.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/RecordController.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/RecordController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/UserController.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/WantController.class" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/web/WantController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Template_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Template_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/Template.iml" afterPath="$PROJECT_DIR$/Template/Template.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/pom.xml" afterPath="$PROJECT_DIR$/Template/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Goods.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Goods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Record.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Record.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/User.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Want.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Want.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/GoodsMapper.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/GoodsMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/RecordMapper.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/RecordMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/WantMapper.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/WantMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/RecordMapper.xml" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/RecordMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/UserMapper.xml" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/WantMapper.xml" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/WantMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/GoodsService.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/GoodsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/RecordService.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/RecordService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/UserService.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/WantService.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/WantService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/GoodsController.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/GoodsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/RecordController.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/RecordController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserController.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/WantController.java" afterPath="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/WantController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/Template/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/Template/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsList.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsListIndex.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsList.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsListIndex.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowGoodsList.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowGoodsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyGoodsListIndex.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyGoodsListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordList.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordListIndex.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserList.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantList.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantListIndex.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/main.jsp" afterPath="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/GoodsMapper.xml" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/GoodsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/RecordMapper.xml" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/RecordMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/UserMapper.xml" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/WantMapper.xml" afterPath="$PROJECT_DIR$/Template/target/classes/com/neuedu/dao/sqlmap/WantMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/Template/target/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/GoodsMapper.xml" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/GoodsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/RecordMapper.xml" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/RecordMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/UserMapper.xml" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/WantMapper.xml" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/com/neuedu/dao/sqlmap/WantMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/classes/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/CheckGoodsList.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/CheckGoodsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/CheckGoodsListIndex.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/CheckGoodsListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowFlagedGoodsList.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowFlagedGoodsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowFlagedGoodsListIndex.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowFlagedGoodsListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowGoodsList.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowGoodsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowMyGoodsListIndex.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowMyGoodsListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowMyRecordList.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowMyRecordList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowMyRecordListIndex.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowMyRecordListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowUserList.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowUserList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowUserListIndex.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowUserListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowWantList.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowWantList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowWantListIndex.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/ShowWantListIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/main.jsp" afterPath="$PROJECT_DIR$/Template/target/security/WEB-INF/view/main.jsp" />
     </list>
     <ignored path="SpringSecurity_SSM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,91 +139,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WantController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/WantController.java">
+      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="2460">
+              <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+              <folding>
+                <element signature="e#4389#4395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyGoods.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/BuyGoods.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowFlagedGoodsListIndex.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsListIndex.jsp">
+      <file leaf-file-name="RecordController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/RecordController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="700">
+              <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowFlagedGoodsList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsList.jsp">
+      <file leaf-file-name="GoodsMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="62" column="6" selection-start-line="31" selection-start-column="0" selection-end-line="62" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="2500">
+              <caret line="125" column="31" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="31" />
+              <folding>
+                <marker date="1483259341560" expanded="true" signature="287:583" placeholder="SELECT * FRO... Goods" />
+                <marker date="1483259341560" expanded="true" signature="1058:1092" placeholder="select * fro... Goods" />
+                <marker date="1483259341560" expanded="true" signature="1171:1302" placeholder="UPDATE Goods... " />
+                <marker date="1483259341560" expanded="true" signature="1374:1587" placeholder="INSERT INTO Goods... " />
+                <marker date="1483259341560" expanded="true" signature="1684:1922" placeholder="SELECT * FRO... Goods" />
+                <marker date="1483259341560" expanded="true" signature="2321:2354" placeholder="SELECT DISTI... Goods" />
+                <marker date="1483259341560" expanded="true" signature="2433:3211" placeholder="UPDATE Goods... " />
+                <marker date="1483259341560" expanded="true" signature="3313:3655" placeholder="select * fro... Goods" />
+                <marker date="1483259341560" expanded="true" signature="4164:4195" placeholder="select DISTI... Goods" />
+                <marker date="1483259341560" expanded="true" signature="4285:4317" placeholder="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowWantListIndex.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantListIndex.jsp">
+      <file leaf-file-name="RecordMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/RecordMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding>
+                <marker date="1483269746358" expanded="true" signature="266:500" placeholder="INSERT INTO Record... " />
+                <marker date="1483269746358" expanded="true" signature="615:807" placeholder="SELECT * FRO... Record" />
+                <marker date="1483269746358" expanded="true" signature="1173:1203" placeholder="select * fro... Record" />
+                <marker date="1483269746358" expanded="true" signature="1173:1453" placeholder="select * fro... Record" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowMyRecordList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordList.jsp">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowWantList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddWants.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddWants.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddGoods.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddGoods.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="118" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="118" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckGoodsListIndex.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsListIndex.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="1480">
+              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -122,8 +220,38 @@
       <file leaf-file-name="ShowUserListIndex.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="380">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowUserList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1720">
+              <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckGoodsList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1420">
+              <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -135,8 +263,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -154,57 +282,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Template/src/main/resources/spring-core.xml" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/MyUserDetailService.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserService.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/login.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/test/java/EvnTest.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Want.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/User.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyInfo.jsp" />
         <option value="$PROJECT_DIR$/Template/src/main/resources/spring-security.xml" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserList.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyGoodsListIndex.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserController.java" />
         <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeUser.jsp" />
         <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeMyInfo.jsp" />
         <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeGoods.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsList.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Goods.java" />
         <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddGoods.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowGoodsList.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/GoodsMapper.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsList.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/GoodsController.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/BuyGoods.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddWants.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/regist.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/util/RandomUtil.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/getback.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/util/SendUtil.java" />
+        <option value="$PROJECT_DIR$/Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Template/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/User.java" />
         <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/UserMapper.xml" />
         <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/BuyGoods.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsListIndex.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsListIndex.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Record.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/RecordMapper.xml" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordListIndex.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/RecordMapper.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/RecordController.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordList.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/RecordService.java" />
         <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/UserService.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/main.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/WantMapper.xml" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Record.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Goods.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsListIndex.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsList.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowAllRecordList.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowAllRecordListIndex.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Want.java" />
         <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/WantMapper.java" />
         <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/WantService.java" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantListIndex.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantList.jsp" />
-        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddWants.jsp" />
         <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/WantController.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/WantMapper.xml" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantList.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantListIndex.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyGoodsListIndex.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowGoodsList.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsListIndex.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsList.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/RecordMapper.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/RecordService.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordListIndex.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordList.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/main.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserController.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserList.jsp" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/GoodsController.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/RecordController.java" />
+        <option value="$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/RecordMapper.xml" />
       </list>
     </option>
   </component>
@@ -226,6 +354,9 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -258,19 +389,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -280,7 +415,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -291,10 +426,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -316,7 +459,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -342,7 +485,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -372,7 +515,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -398,7 +541,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -416,7 +559,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -446,7 +589,37 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neuedu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -476,7 +649,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -510,7 +683,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -544,7 +717,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity_SSM" />
+              <option name="myItemId" value="Fleaers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -574,25 +747,25 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Fleaers\Template\src\main\webapp\WEB-INF\view" />
+      <recent name="H:\Fleaers\Template\src\main\webapp\static\js" />
       <recent name="H:\SpringSecurity_SSM\Template\src\main\webapp\static\img" />
       <recent name="H:\SpringSecurity_SSM\Template\src\main\webapp\static\js" />
       <recent name="H:\SpringSecurity_SSM\Template\src\main\webapp" />
-      <recent name="H:\SpringSecurity_SSM\Template\src\main\webapp\static" />
-      <recent name="H:\SpringSecurity_SSM\Template\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\SpringSecurity_SSM\Template\src\main\webapp" />
@@ -1035,6 +1208,7 @@
       <method />
     </configuration>
     <configuration default="false" name="SpringSecurity" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.271" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1145,6 +1319,20 @@
       <workItem from="1482458010618" duration="27318000" />
       <workItem from="1482546615423" duration="18120000" />
       <workItem from="1482576981939" duration="1291000" />
+      <workItem from="1482579911165" duration="6639000" />
+      <workItem from="1482648170073" duration="12804000" />
+      <workItem from="1482670507072" duration="4968000" />
+      <workItem from="1482731947122" duration="6059000" />
+      <workItem from="1482916814721" duration="348000" />
+      <workItem from="1482926162933" duration="4346000" />
+      <workItem from="1483013579739" duration="1381000" />
+      <workItem from="1483106824859" duration="661000" />
+      <workItem from="1483107689069" duration="4415000" />
+      <workItem from="1483113039975" duration="4058000" />
+      <workItem from="1483151546622" duration="18215000" />
+      <workItem from="1483180560899" duration="10167000" />
+      <workItem from="1483238250218" duration="19509000" />
+      <workItem from="1483603935038" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="用户管理模块">
       <created>1482060250265</created>
@@ -1196,7 +1384,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150956000" />
+    <option name="totallyTimeSpent" value="244530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1204,32 +1392,32 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59574467" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59574467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66939443" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1251,7 +1439,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1260,436 +1448,425 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper/xml.java" />
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/static/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34035">
-          <caret line="2367" column="19" selection-start-line="2367" selection-start-column="18" selection-end-line="2367" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/static/js/jquery.validate.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/MyUserDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/regist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="2840">
+          <caret line="142" column="9" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/resources/spring-core.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/resources/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="109" selection-start-line="24" selection-start-column="7" selection-end-line="26" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeUser.jsp">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/util/RandomUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="74" />
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/getback.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyInfo.jsp">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/util/SendUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="56" column="71" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeMyInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="24" column="203" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="203" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="186" selection-start-line="9" selection-start-column="8" selection-end-line="16" selection-end-column="186" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <marker date="1482473336087" expanded="true" signature="654:688" placeholder="select * fro... Goods" />
-            <marker date="1482473336087" expanded="true" signature="767:898" placeholder="UPDATE Goods... " />
-            <marker date="1482473336087" expanded="true" signature="970:1183" placeholder="INSERT INTO Goods... " />
-            <marker date="1482473336087" expanded="true" signature="1280:1309" placeholder="SELECT * FRO... Goods" />
-            <marker date="1482473336087" expanded="true" signature="1567:1600" placeholder="SELECT DISTI... Goods" />
-            <marker date="1482473336087" expanded="true" signature="1679:1691" placeholder="UPDATE Goods... " />
-            <marker date="1482473336087" expanded="true" signature="1679:2457" placeholder="UPDATE Goods... " />
-            <marker date="1482473336087" expanded="true" signature="2559:2578" placeholder="select * fro... Goods" />
-            <marker date="1482473336087" expanded="true" signature="2559:2591" placeholder="select * fro... Goods" />
-            <marker date="1482473336087" expanded="true" signature="2950:2981" placeholder="select DISTI... Goods" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyGoodsListIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowGoodsList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/RecordMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <marker date="1482547288029" expanded="true" signature="266:500" placeholder="INSERT INTO Record... " />
-            <marker date="1482547288029" expanded="true" signature="615:664" placeholder="SELECT * FRO... Record" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/RecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2539#2555#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="46" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <marker date="1482479520260" expanded="true" signature="290:336" placeholder="SELECT * FRO... user2" />
-            <marker date="1482479520260" expanded="true" signature="740:774" placeholder="SELECT * FRO... user2" />
-            <marker date="1482479520260" expanded="true" signature="847:977" placeholder="UPDATE user2... " />
-            <marker date="1482479520260" expanded="true" signature="1048:1232" placeholder="UPDATE user2... " />
-            <marker date="1482479520260" expanded="true" signature="1311:1344" placeholder="DELETE FROM " />
-            <marker date="1482479520260" expanded="true" signature="1422:1457" placeholder="SELECT * FRO... user2" />
-            <marker date="1482479520260" expanded="true" signature="1559:1606" placeholder="SELECT id fr... user2" />
-            <marker date="1482479520260" expanded="true" signature="1708:1749" placeholder="SELECT userN... user2" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="140">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/RecordService.java">
+    <entry file="file://$PROJECT_DIR$/Template/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        <state relative-caret-position="3040">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/UserService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.4.RELEASE/spring-core-3.2.4.RELEASE.jar!/org/springframework/util/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="56">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Goods.java">
+    <entry file="file://$PROJECT_DIR$/Template/src/test/java/EvnTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/GoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/RecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="260">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="393">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/BuyGoods.jsp">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.1.4/pagehelper-4.1.4.jar!/com/github/pagehelper/PageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <marker date="1483169098087" expanded="true" signature="290:336" placeholder="SELECT * FRO... user2" />
+            <marker date="1483169098087" expanded="true" signature="440:455" placeholder="SELECT count... " />
+            <marker date="1483169098087" expanded="true" signature="440:466" placeholder="SELECT count... user2" />
+            <marker date="1483169098087" expanded="true" signature="755:997" placeholder="SELECT * FRO... user2" />
+            <marker date="1483169098087" expanded="true" signature="1093:1127" placeholder="SELECT * FRO... user2" />
+            <marker date="1483169098087" expanded="true" signature="1200:1330" placeholder="UPDATE user2... " />
+            <marker date="1483169098087" expanded="true" signature="1401:1585" placeholder="UPDATE user2... " />
+            <marker date="1483169098087" expanded="true" signature="1664:1697" placeholder="DELETE FROM " />
+            <marker date="1483169098087" expanded="true" signature="1775:1810" placeholder="SELECT * FRO... user2" />
+            <marker date="1483169098087" expanded="true" signature="1912:1959" placeholder="SELECT id fr... user2" />
+            <marker date="1483169098087" expanded="true" signature="2061:2102" placeholder="SELECT userN... user2" />
+            <marker date="1483169098087" expanded="true" signature="2172:2467" placeholder="INSERT INTO user2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowAllRecordListIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="129" column="51" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="51" />
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/bean/Want.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="79" column="25" selection-start-line="77" selection-start-column="7" selection-end-line="79" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="103" column="47" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordListIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/WantMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <marker date="1482570735175" expanded="true" signature="256:452" placeholder="INSERT INTO want... " />
-            <marker date="1482570735175" expanded="true" signature="553:581" placeholder="SELECT * FRO... want" />
-            <marker date="1482570735175" expanded="true" signature="1010:1045" placeholder="SELECT DISTI... want" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/WantMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/WantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/WantService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="420">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/WantMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#542#543#0" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
+            <marker date="1483190222821" expanded="true" signature="256:452" placeholder="INSERT INTO want... " />
+            <marker date="1483190222821" expanded="true" signature="553:963" placeholder="SELECT * FRO... want" />
+            <marker date="1483190222821" expanded="true" signature="1540:1575" placeholder="SELECT DISTI... want" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsList.jsp">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsListIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsListIndex.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="118" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="118" />
+        <state relative-caret-position="1600">
+          <caret line="80" column="63" selection-start-line="80" selection-start-column="63" selection-end-line="80" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantListIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="640">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsListIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="46" column="27" selection-start-line="33" selection-start-column="14" selection-end-line="46" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyGoodsListIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="62" column="6" selection-start-line="31" selection-start-column="0" selection-end-line="62" selection-end-column="6" />
+        <state relative-caret-position="173">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowFlagedGoodsListIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/RecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/RecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordListIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyRecordList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="139">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowWantList.jsp">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowAllRecordList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="253">
+          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddWants.jsp">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowMyInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="-821">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/WantController.java">
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowGoodsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="71" column="85" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/AddGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="28" column="118" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ChangeUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserListIndex.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/ShowUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/CheckGoodsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+          <folding>
+            <element signature="e#4389#4395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/webapp/WEB-INF/view/BuyGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/web/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="125" column="31" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="31" />
+          <folding>
+            <marker date="1483259341560" expanded="true" signature="287:583" placeholder="SELECT * FRO... Goods" />
+            <marker date="1483259341560" expanded="true" signature="1058:1092" placeholder="select * fro... Goods" />
+            <marker date="1483259341560" expanded="true" signature="1171:1302" placeholder="UPDATE Goods... " />
+            <marker date="1483259341560" expanded="true" signature="1374:1587" placeholder="INSERT INTO Goods... " />
+            <marker date="1483259341560" expanded="true" signature="1684:1922" placeholder="SELECT * FRO... Goods" />
+            <marker date="1483259341560" expanded="true" signature="2321:2354" placeholder="SELECT DISTI... Goods" />
+            <marker date="1483259341560" expanded="true" signature="2433:3211" placeholder="UPDATE Goods... " />
+            <marker date="1483259341560" expanded="true" signature="3313:3655" placeholder="select * fro... Goods" />
+            <marker date="1483259341560" expanded="true" signature="4164:4195" placeholder="select DISTI... Goods" />
+            <marker date="1483259341560" expanded="true" signature="4285:4317" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/src/main/java/com/neuedu/dao/sqlmap/RecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <marker date="1483269746358" expanded="true" signature="266:500" placeholder="INSERT INTO Record... " />
+            <marker date="1483269746358" expanded="true" signature="615:807" placeholder="SELECT * FRO... Record" />
+            <marker date="1483269746358" expanded="true" signature="1173:1203" placeholder="select * fro... Record" />
+            <marker date="1483269746358" expanded="true" signature="1173:1453" placeholder="select * fro... Record" />
+          </folding>
         </state>
       </provider>
     </entry>

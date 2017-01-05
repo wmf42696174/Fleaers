@@ -14,4 +14,10 @@ public interface RecordMapper {
     public int AddRecord(Record record);
 
     public List<Record> QueryRecordByBuyername(Map<String,Object> parameter);
+
+    public List<Record>QueryAllRecord(Map<String,Object> parameter);
+
+    public int QueryCount(Map<String,Object> parameter);
+
+    public int QueryReCount(Map<String,Object> parameter);
 }

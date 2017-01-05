@@ -17,6 +17,16 @@ public class Want {
 
     private int wantnum;
 
+    private int pagenum;
+
+    public int getPagenum() {
+        return pagenum;
+    }
+
+    public void setPagenum(int pagenum) {
+        this.pagenum = pagenum;
+    }
+
     @Override
     public String toString() {
         return "Want{" +
@@ -26,6 +36,7 @@ public class Want {
                 ", price=" + price +
                 ", description='" + description + '\'' +
                 ", wantnum=" + wantnum +
+                ", pagenum=" + pagenum +
                 '}';
     }
 

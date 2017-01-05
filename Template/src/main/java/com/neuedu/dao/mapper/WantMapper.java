@@ -14,4 +14,5 @@ public interface WantMapper {
     public int AddWant(Want want);
     public List<Want>QueryAllWant(Map<String,Object> parameter);
     public List<String>QueryAllName();
+    public int QueryCount(Map<String,Object> parameter);
 }

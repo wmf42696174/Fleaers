@@ -2,18 +2,18 @@ package com.neuedu.web;
 
 import com.neuedu.bean.User;
 import com.neuedu.service.UserService;
+import com.neuedu.util.SendUtil;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by Administrator on 2016-12-16.
@@ -25,6 +25,11 @@ import java.util.List;
 public class UserController {
 
 
+    private String cid;
+
+    private String ma;
+    @Resource
+    private SendUtil util;
     @Resource
     private UserService userService;
 
@@ -35,6 +40,15 @@ public class UserController {
                                      HttpServletRequest request){
         ModelAndView mv=new ModelAndView();
         System.out.println(user.toString());
+        int current=user.getPagenum();
+        System.out.println("pagenum"+user.getPagenum());
+        user.setPagenum((user.getPagenum()-1)*3);
+        int count=userService.QueryCount(user);
+        if(count%3!=0){
+            count=count/3+1;
+        }else{
+            count=count/3;
+        }
         if("index".equals(index)){
             mv.setViewName("ShowUserListIndex");
         }
@@ -43,6 +57,9 @@ public class UserController {
         }
         List<User> userList=userService.QueryAllUser(user);
         mv.addObject("UserList",userList);
+        mv.addObject("count",count);
+        mv.addObject("currentpagenum",current);
+        mv.addObject("user",user);
         return mv;
     }
 
@@ -56,18 +73,22 @@ public class UserController {
     }
     @RequestMapping(value = "changeuserinfo",method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView ChangeUserInfo(@ModelAttribute("user")User user){
-        ModelAndView mv=new ModelAndView();
+       // ModelAndView mv=new ModelAndView();
         System.out.println("ceshi"+user.toString());
         int i=userService.ChangeUserInfo(user);
-        mv.setViewName("main");
-        return mv;
+       // mv.addObject("tip","success");
+       // mv.setViewName("main");
+        return new ModelAndView("redirect:/user/list?index=index&pagenum=1");
     }
     @RequestMapping(value = "deleteuser",method = {RequestMethod.POST,RequestMethod.GET})
     public ModelAndView DeleteUser(@RequestParam(value = "id")String id){
-        ModelAndView mv=new ModelAndView();
-        int i=userService.DeleteUserById(id);
-        mv.setViewName("main");
-        return mv;
+         ModelAndView mv=new ModelAndView("redirect:/user/list?index=index&pagenum=1");
+         int i=userService.DeleteUserById(id);
+        //mv.setViewName("main");
+       // ModelMap map=new ModelMap();
+      //  map.addAttribute("deleteflag","success");
+         mv.addObject("deleteflag","success");
+         return mv;
     }
 
     @RequestMapping(value = "changeme",method = {RequestMethod.POST,RequestMethod.GET})
@@ -82,8 +103,8 @@ public class UserController {
     public ModelAndView ChangeMyInfo(@ModelAttribute("user")User user){
         ModelAndView mv=new ModelAndView();
         int i=userService.ChangeMyInfo(user);
-        mv.setViewName("main");
-        return mv;
+      //  mv.setViewName("main");
+        return new ModelAndView("redirect:/user/MyInfo");
     }
     @RequestMapping(value = "MyInfo",method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView MyInfo(HttpServletRequest request){
@@ -135,6 +156,58 @@ public class UserController {
         System.out.println("跳转到主界面");
         mv.setViewName("main");
         return mv;
+    }
+
+    @RequestMapping(value = "/regist",method = {RequestMethod.GET,RequestMethod.POST})
+    public String Regist(){
+        return "regist";
+    }
+    @RequestMapping(value = "AddUser",method = {RequestMethod.POST,RequestMethod.GET})
+    public ModelAndView AddUser(@ModelAttribute("user")User user){
+        System.out.println("asdasdsad哈"+user.toString());
+        User checkUSer=userService.CheckUser(user.getUserName());
+        ModelAndView mv=new ModelAndView();
+        if(checkUSer!=null){
+            mv.setViewName("regist");
+            mv.addObject("error","fail");
+            return mv;
+        }
+        mv.addObject("error", "success");
+        String s= UUID.randomUUID().toString();
+        String id=s.substring(0,8)+s.substring(9,13)+s.substring(14,18)+s.substring(19,23)+s.substring(24);
+        user.setId(id);
+        if(user.getType().equals("卖方")){
+            user.setRole("ROLE_USER");
+        }
+        else{
+            user.setRole("ROLE_SALE");
+        }
+        mv.setViewName("login");
+        userService.AddUser(user);
+        return mv;
+    }
+
+    @RequestMapping(value = "getback",method = {RequestMethod.GET,RequestMethod.POST})
+    public String GetBack(){
+        return "getback";
+    }
+    @RequestMapping(value = "yanzheng")
+    public String SendEmail(@RequestParam String id)throws Exception{
+        cid=id;
+        System.out.println("asdasdas"+id);
+        String email=userService.CheckUser(id).getEmail();
+        ma= util.SendMail(email);
+        System.out.println(ma);
+        return "getback";
+    }
+    @RequestMapping(value = "he")
+    public @ResponseBody
+    User check(@RequestParam String yan){
+        if(yan.equals(ma)){
+            User user=userService.CheckUser(cid);
+            return user;
+        }
+        return null;
     }
 
 }

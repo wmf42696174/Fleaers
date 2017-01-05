@@ -28,4 +28,12 @@ public interface GoodsMapper {
     public List<Goods>QueryAllFlagedGoods(Goods goods);
 
     public List<String>QueryGoodsType();
+
+    public int QueryCount(Goods goods);
+
+    public int QueryMyCount(Goods goods);
+
+    public int QueryFlagedCount(Goods goods);
+
+    public int DeleteGoodsById(String id);
 }

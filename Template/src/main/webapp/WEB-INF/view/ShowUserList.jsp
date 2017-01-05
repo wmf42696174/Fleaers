@@ -8,6 +8,7 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/animate.css">
     <style type="text/css">
       .box{width:80%;float:right;height:550px;border: 1px solid #fff;margin-right: 15px;}
       .box .b_title{width:100%;height:30px;border:1px solid red;border-top:none;background: #333762;}
@@ -18,7 +19,7 @@
       .box .b_title span.s4{width: 150px;margin-left: 20px;}
       .box .b_title span.s5{width:200px;margin-left: 20px;}
       .box .b_title span.s6{width:200px;margin-left: 20px;}
-      .box .b_content{width:100%;height: 520px;}
+      .box .b_content{width:100%;height:490px;}
       .box .b_content p{display: block;width:100%;height:30px;border-bottom: 1px solid #fff;}
       .box .b_content span{font-size:14px;display: inline-block; height:30px;text-align: center;color:#fff;line-height: 30px;}
       .box .b_content span a{text-decoration: none;color:#fff;}
@@ -28,13 +29,14 @@
       .box .b_content span.c4{width: 150px;margin-left: 20px;}
       .box .b_content span.c5{width:200px;margin-left: 20px;}
       .box .b_content span.c6{width:200px;margin-left: 20px;}
+      .box .fenye{width:100%;height:30px;}
+      .box .fenye p{display: block;width:100%;height:100%;background:#7a43c3;}
+      .box .fenye p span{margin-left:20px;display:inline-block;width:60px;height:30px;text-align: center;line-height: 30px;color:#fff;font-size: 14px;}
+      .tip{display:none;width:300px;height:120px;position:absolute;top:0px;left:530px;background:#fff;}
+      .tip .t_title{width:100%;height:30px;background:#131231;color:#fff;line-height:30px;}
+      .tip .t_title p{color:#000;width:100%;height:30px;font-size:16px;letter-spacing:4px;margin-top:10px;}
     </style>
 </head>
-<body>
-  <form method="post" action="<%=basePath%>/user/list">
-      <input type="hidden" id="_userName" name="userName"/>
-      <input type="hidden" id="_sex" name="sex"/>
-  </form>
   <div class="box">
      <div class="b_title">
         <span class="s1">用户名</span>
@@ -63,6 +65,60 @@
              </p>
          </c:forEach>
      </div>
+      <div class="fenye">
+            <form name="MyForm" method="post">
+                <input type="hidden" id="_userName" name="userName"/>
+                <input type="hidden" id="_sex" name="sex">
+                <p style="color:#fff;">
+                   <span>共     <i id="count">${count}</i>       页</span>
+                   <input type="button" value="上一页" onclick="prea()" style="display:inline-block;width:80px;height:20px;text-align:center;line-height:20px;background:#333762;border-radius:3px;border: none;cursor:pointer;color:#fff;"/>
+                    第<input type="text" id="pagenum" name="pagenum" value="${currentpagenum}" style="width:40px;background:#fff;border-radius:3px;text-align:center;border:none;"/>页
+                   <input type="button" value="下一页" onclick="next()" style="display:inline-block;width:80px;height:20px;text-align:center;line-height:20px;background:#333762;border-radius:3px;border: none;cursor:pointer;color:#fff;"/>
+                </p>
+            </form>
+
+      </div>
   </div>
+<div class="tip animated bounceInDown">
+    <div class="t_title">温馨提示
+        <p id="tishi">已经删除该用户</p>
+    </div>
+</div>
+<script>
+
+    function next(){
+        var pagenum=$("#pagenum").val();
+        var count=$("#count").html();
+        $("#_userName").val($("#userName").val());
+        $("#_sex").val($("#sex").val());
+
+        if(pagenum<count){
+            var p=Number(pagenum)+1;
+            $("#pagenum").val(p);
+        }
+        document.MyForm.action="<%=basePath%>/user/list?index=index";
+        document.MyForm.submit();
+    }
+
+    function prea(){
+        var pagenum=$("#pagenum").val();
+        var count=$("#count").html();
+        $("#_userName").val($("#userName").val());
+        $("#_sex").val($("#sex").val());
+        if(pagenum>1){
+            var p=Number(pagenum)-1;
+            $("#pagenum").val(p);
+        }
+        document.MyForm.action="<%=basePath%>/user/list?index=index";
+        document.MyForm.submit();
+    }
+    var msg=$(".msg").text();
+    if(msg=="success"){
+        $(".tip").show();
+        setTimeout(function(){
+            $(".tip").slideUp();
+        },2500);
+    }
+</script>
 </body>
 </html>

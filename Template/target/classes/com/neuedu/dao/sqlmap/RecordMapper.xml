@@ -20,5 +20,36 @@
         <if test="time!=null and time!=''">
             AND time >=#{time}
         </if>
+        ORDER BY TIME DESC 
+        limit #{pagenum},6
+    </select>
+    <select id="QueryReCount" parameterType="java.util.Map" resultType="java.lang.Integer">
+        SELECT count(*) FROM Record WHERE buyername=#{buyername}
+        <if test="time!=null and time!=''">
+            AND time >=#{time}
+        </if>
+    </select>
+    <select id="QueryAllRecord" parameterType="java.util.Map" resultType="Record">
+        select * from Record WHERE 1=1
+        <if test="begintime!=null and beigintime!=''">
+            AND time>#{begintime}
+        </if>
+        <if test="endtime!=null and endtime!=''">
+            <![CDATA[
+			and time<=#{endtime}
+		    ]]>
+        </if>
+        limit #{pagenum},6
+    </select>
+    <select id="QueryCount" parameterType="java.util.Map" resultType="java.lang.Integer">
+        select count(*) from Record WHERE 1=1
+        <if test="begintime!=null and beigintime!=''">
+            AND time>#{begintime}
+        </if>
+        <if test="endtime!=null and endtime!=''">
+            <![CDATA[
+			and time<=#{endtime}
+		    ]]>
+        </if>
     </select>
 </mapper>

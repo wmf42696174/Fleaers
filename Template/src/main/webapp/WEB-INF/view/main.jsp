@@ -30,6 +30,10 @@
         .m_left ul li span a{text-decoration: none;color:#fff;}
         .m_left ul li .list{display:none;}
          .m_left ul li .list p{text-align: center;cursor:pointer;font-size:14px;color:red;border-top:1px solid #606C7D;}
+
+        .tip{display:none;width:300px;height:120px;position:absolute;top:40px;left:530px;background:#fff;}
+        .tip .t_title{width:100%;height:30px;background:#131231;color:#fff;line-height:30px;}
+        .tip .t_title p{color:#000;width:100%;height:30px;font-size:16px;letter-spacing:4px;margin-top:10px;}
     </style>
 </head>
 <body>
@@ -50,7 +54,8 @@
     <ul>
         <sec:authorize access="hasRole('ROLE_ADMIN')">
         <li class="manger">
-            <span><a href="../user/list?index=index">用户管理</a></span>
+            <span><a href="../user/list?index=index&pagenum=1">用户管理</a></span>
+            <div class="msg" style="display: none;">${tip}</div>
             <div class="list">
             </div>
         </li>
@@ -58,21 +63,23 @@
         <sec:authorize access="hasAnyRole('ROLE_USER','ROLE_SALE')">
          <li class="pset">
              <span><a href="../user/MyInfo">个人管理</a></span>
+             <div class="msg3">${changemetip}</div>
          </li>
         </sec:authorize>
         <sec:authorize access="hasRole('ROLE_USER')">
             <li class="mys">
-                <span><a href="../goods/showmygoodslist">我的商品</a></span>
+                <span><a href="../goods/showmygoodslist?pagenum=1">我的商品</a></span>
+                <div class="msg4">${changegoodstip}</div>
             </li>
         </sec:authorize>
         <sec:authorize access="hasRole('ROLE_SALE')">
             <li class="splb">
-                <span><a href="../goods/showallgoods">商品列表</a></span>
+                <span><a href="../goods/showallgoods?pagenum=1">商品列表</a></span>
             </li>
         </sec:authorize>
         <sec:authorize access="hasRole('ROLE_SALE')">
             <li class="smr">
-                <span><a href="../record/showmyrecord">购买记录</a></span>
+                <span><a href="../record/showmyrecord?pagenum=1">购买记录</a></span>
             </li>
         </sec:authorize>
         <sec:authorize access="hasRole('ROLE_SALE')">
@@ -87,26 +94,33 @@
         </sec:authorize>
         <sec:authorize access="hasRole('ROLE_ADMIN')">
         <li class="shen">
-            <span><a href="../goods/checkgoods">商品审核</a></span>
+            <span><a href="../goods/checkgoods?pagenum=1">商品审核</a></span>
+            <div class="msg2"style="display: none">${changetip}</div>
             <div class="list">
             </div>
         </li>
         </sec:authorize>
         <sec:authorize access="hasRole('ROLE_ADMIN')">
         <li class="cha">
-            <span><a href="">查看订单</a></span>
+            <span><a href="../record/showallrecordlist?pagenum=1">查看订单</a></span>
             <div class="list">
             </div>
         </li>
         </sec:authorize>
         <sec:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_USER')">
         <li class="want">
-            <span><a href="../want/showwantlist">用户需求</a></span>
+            <span><a href="../want/showwantlist?pagenum=1">用户需求</a></span>
             <div class="list">
             </div>
         </li>
         </sec:authorize>
     </ul>
+</div>
+<!-- login end -->
+<div class="tip animated bounceInDown">
+    <div class="t_title">温馨提示
+        <p id="tishi">用户修改成功</p>
+    </div>
 </div>
 <script type="text/javascript" src="/static/js/jquery.js"></script>
 <script>
@@ -119,6 +133,29 @@
         var index=$(this).index();
         $(".page").eq(index).show().siblings().hide();
     });
+    var msg=$(".msg").text();
+    if(msg =="success"){
+        $(".tip").show();
+        setTimeout(function(){
+            $(".tip").slideUp();
+        },2500);
+    };
+    var msg2=$(".msg2").text();
+    if(msg2 =="success"){
+
+        $("#tishi").html("审核成功");
+        $(".tip").show();
+        setTimeout(function(){
+            $(".tip").slideUp();
+        },2500);
+    };
+    var msg3=$(".msg3").text();
+    if(msg3 =="success"){
+        $(".tip").show();
+        setTimeout(function(){
+            $(".tip").slideUp();
+        },2500);
+    };
 </script>
 </body>
 </html>

@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="Search">
-    <form action="" method="post">
+    <form action="../want/showwantlist?pagenum=1" method="post">
         <p class="SearchBar">
             <span>发布人:</span>
             <select name="buyername" id="buyername" style="width:90px;background: #7288a9;border-radius: 3px;color:#fff;">
@@ -26,9 +26,9 @@
                 </c:forEach>
             </select>
             <span>最小价格:</span>
-            <input type="text" name="minprice" id="minprice"  onkeyup="value=value.replace(/[^\d.]/g,'')"/>
+            <input type="text" name="minprice" id="minprice"  onkeyup="value=value.replace(/[^\d.]/g,'')" value="${minprice}"/>
             <span>最大价格:</span>
-            <input type="text" name="maxprice" id="maxprice"  onkeyup="value=value.replace(/[^\d.]/g,'')"/>
+            <input type="text" name="maxprice" id="maxprice"  onkeyup="value=value.replace(/[^\d.]/g,'')" value="${maxprice}"/>
             <input type="submit" class="submit" value="查找"/>
         </p>
     </form>

@@ -11,7 +11,17 @@
         <if test="flag!=null and flag !=''">
             AND flag=#{flag}
         </if>
-
+         limit #{pagenum},4
+    </select>
+    <select id="QueryMyCount" parameterType="Goods" resultType="java.lang.Integer">
+        SELECT count(*) FROM Goods WHERE 1=1
+        AND userid=#{userid}
+        <if test="name!=null and name !=''">
+            AND name LIKE CONCAT(CONCAT('%',#{name}),'%')
+        </if>
+        <if test="flag!=null and flag !=''">
+            AND flag=#{flag}
+        </if>
     </select>
     <select id="QueryGoodsById" parameterType="String" resultType="Goods">
         select * from Goods WHERE id=#{id}
@@ -38,6 +48,16 @@
     </insert>
     <select id="QueryAllyGoods" parameterType="Goods" resultType="Goods">
         SELECT * FROM Goods WHERE 1=1
+        <if test="userid!=null and userid!=''">
+            AND userid=#{userid}
+        </if>
+        <if test="flag!=null and flag!=''">
+            AND flag=#{flag}
+        </if>
+        limit #{pagenum},4
+    </select>
+    <select id="QueryCount" parameterType="Goods" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM Goods WHERE 1=1
         <if test="userid!=null and userid!=''">
             AND userid=#{userid}
         </if>
@@ -86,8 +106,24 @@
         <if test="type!=0">
             AND type=#{type}
         </if>
+        limit #{pagenum},6
+    </select>
+    <select id="QueryFlagedCount" parameterType="Goods" resultType="java.lang.Integer">
+        select count(*) from Goods WHERE flag=1
+        <if test="name!=null and name !=''">
+            AND name LIKE CONCAT(CONCAT('%',#{name}),'%')
+        </if>
+        <if test="userid!=null and userid!=''">
+            AND userid=#{userid}
+        </if>
+        <if test="type!=0">
+            AND type=#{type}
+        </if>
     </select>
     <select id="QueryGoodsType" resultType="String">
         select DISTINCT type from Goods
     </select>
+    <delete id="DeleteGoodsById" parameterType="java.lang.String">
+        DELETE FROM Goods WHERE id=#{id}
+    </delete>
 </mapper>

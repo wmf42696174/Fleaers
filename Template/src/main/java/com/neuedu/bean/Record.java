@@ -18,11 +18,20 @@ public class Record {
     private String salename;//卖家
     @DateTimeFormat(pattern="yyyyMMddHHmmss")
     private Date time;//交易时间
+    private int pagenum;
+
+    public int getPagenum() {
+        return pagenum;
+    }
+
+    public void setPagenum(int pagenum) {
+        this.pagenum = pagenum;
+    }
 
     @Override
     public String toString() {
         return "Record{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", gname='" + gname + '\'' +
                 ", gprice=" + gprice +
                 ", gnum=" + gnum +
@@ -30,6 +39,7 @@ public class Record {
                 ", buyername='" + buyername + '\'' +
                 ", salename='" + salename + '\'' +
                 ", time=" + time +
+                ", pagenum=" + pagenum +
                 '}';
     }
 

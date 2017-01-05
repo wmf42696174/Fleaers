@@ -35,7 +35,7 @@
         <p><span class="l_id"></span><input type="text" placeholder="账号" id="id" class="id" name="j_username" /></p>
         <p><span class="l_pass"></span><input type="password" placeholder="密码" id="password" class="password" name="j_password"/></p>
         <p><input type="submit" value="登录" class="btn"/></p>
-        <a href="javascript:void(0)"class="regit">注册</a><a href="/sys/log/get" class="forgot">忘记密码</a>
+        <a href="../user/regist"class="regit">注册</a><a href="../user/getback" class="forgot">忘记密码</a>
     </div>
 </form>
 <!-- login end -->

@@ -36,6 +36,9 @@ public class GoodsService {
     public List<Goods>QueryAllyGoods(Goods goods){
         return goodsMapper.QueryAllyGoods(goods);
     }
+    public int QueryCount(Goods goods){
+        return goodsMapper.QueryCount(goods);
+    }
     public List<String>QueryAllUserId(){
         return goodsMapper.QueryAllUserId();
     }
@@ -47,4 +50,14 @@ public class GoodsService {
     public List<Goods>QueryAllFlagedGoods(Goods goods){return goodsMapper.QueryAllFlagedGoods(goods);}
 
     public List<String>QueryGoodsType(){return goodsMapper.QueryGoodsType();}
+
+    public int QueryMyCount(Goods goods){
+        return goodsMapper.QueryMyCount(goods);
+    }
+    public int QueryFlagedCount(Goods goods){
+        return goodsMapper.QueryFlagedCount(goods);
+    }
+    public int DeleteGoodsById(String id){
+        return goodsMapper.DeleteGoodsById(id);
+    }
 }

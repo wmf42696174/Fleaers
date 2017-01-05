@@ -20,5 +20,7 @@ public interface UserMapper {
     public List<User>QueryAllUserByType();
     public String QueryIdByUserName(String userName);
     public String QueryUserNameById(String id);
+    public int AddUser(User user);
+    public int QueryCount(User user);
 
 }

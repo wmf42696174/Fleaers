@@ -16,15 +16,28 @@
 </head>
 <body>
   <div class="Search">
-     <form method="post" action="../user/list?index=index">
+     <form method="post" action="../user/list?index=index&pagenum=1">
+         <div class="msg" style="display:none;">${deleteflag}</div>
           <p class="SearchBar">
               <span>用户名:</span>
-              <input type="text" name="userName" id="userName"/>
+              <input type="text" name="userName" id="userName" value="${user.userName}"/>
               <span>性别:</span>
               <select name="sex" id="sex" style="width:90px;background: #7288a9;border-radius: 3px;color:#fff;">
                   <option value="0">默认</option>
-                  <option value="1">男</option>
-                  <option value="2">女</option>
+                      <c:choose>
+                          <c:when test="${user.sex==1}">
+                              <option value="1" selected>男</option>
+                              <option value="2">女</option>
+                          </c:when>
+                          <c:when test="${user.sex==2}">
+                              <option value="1" >男</option>
+                              <option value="2" selected>女</option>
+                          </c:when>
+                          <c:otherwise>
+                              <option value="1" >男</option>
+                              <option value="2">女</option>
+                          </c:otherwise>
+                      </c:choose>
               </select>
               <input type="submit" class="submit" value="查找"/>
           </p>

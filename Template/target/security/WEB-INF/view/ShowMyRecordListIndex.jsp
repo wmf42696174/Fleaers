@@ -16,10 +16,10 @@
 </head>
 <body>
 <div class="Search">
-    <form method="post" action="../record/showmyrecord">
+    <form method="post" action="../record/showmyrecord?pagenum=1">
         <p class="SearchBar">
             <span>购买时间:</span>
-            <input type="datetime-local" name="time" id="time"/>
+            <input type="datetime-local" name="time" id="time" value="${time}"/>
             <input type="submit" class="submit" value="查找"/>
         </p>
     </form>

@@ -48,16 +48,35 @@ public class WantController {
     @RequestMapping(value = "showwantlist",method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView ShowWantList(@RequestParam(value = "minprice",required = false)String minprice,
                                       @RequestParam(value ="maxprice" ,required = false)String maxprice,
-                                      @RequestParam(value = "buyername",required = false)String buyername){
+                                      @RequestParam(value = "buyername",required = false)String buyername,
+                                     @RequestParam(value = "pagenum",required = false)String pagenum){
        ModelAndView mv=new ModelAndView();
         Map<String ,Object> parameter=new HashMap<String, Object>();
         parameter.put("minprice",minprice);
         parameter.put("maxprice",maxprice);
         parameter.put("buyername",buyername);
+        int pageNum=Integer.parseInt(pagenum);
+        int current=pageNum;
+        int count=wantService.QueryCount(parameter);
+        if(count%6!=0){
+            count=count/6+1;
+        }else{
+            count=count/6;
+        }
+        parameter.put("pagenum",(pageNum-1)*6);
         List<Want> wantList=wantService.QueryAllWant(parameter);
         mv.addObject("wantList",wantList);
         List<String>nameList=wantService.QueryAllName();
         mv.addObject("nameList",nameList);
+        mv.addObject("currentpagenum",current);
+        mv.addObject("count",count);
+
+        if(minprice!=null){
+            mv.addObject("minprice",minprice);
+        }
+        if(maxprice!=null){
+            mv.addObject("maxprice",maxprice);
+        }
         mv.setViewName("ShowWantListIndex");
         return mv;
     }

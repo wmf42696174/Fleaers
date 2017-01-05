@@ -1,5 +1,6 @@
 package com.neuedu.service;
 
+import com.github.pagehelper.PageHelper;
 import com.neuedu.bean.User;
 import com.neuedu.dao.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +20,18 @@ public class UserService {
 
 
     public List<User> QueryAllUser(User user){
-        return userMapper.QueryAllUser(user);
+        //PageHelper.startPage(pagenum,3);
+        List<User> userList=userMapper.QueryAllUser(user);
+        System.out.println("大小"+userList.size());
+        return userList;
     }
 
+    public int QueryCount(User user){
+        return userMapper.QueryCount(user);
+    }
+    public User CheckUser(String userName){
+        return  userMapper.CheckUser(userName);
+    }
     public User QueryUserById(String id){
         return userMapper.QueryUserById(id);
     }
@@ -37,4 +47,5 @@ public class UserService {
     public List<User>QueryAllUserByType(){return userMapper.QueryAllUserByType();}
     public String QueryIdByUserName(String userName){return userMapper.QueryIdByUserName(userName);}
     public String QueryUserNameById(String id){return userMapper.QueryUserNameById(id);}
+    public int AddUser(User user){return userMapper.AddUser(user);}
 }

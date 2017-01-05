@@ -16,20 +16,36 @@
 </head>
 <body>
 <div class="Search">
-    <form action="" method="post">
+    <form action="../goods/checkgoods?pagenum=1" method="post">
         <p class="SearchBar">
             <span>发布人:</span>
             <select name="userid" id="userid" style="width:90px;background: #7288a9;border-radius: 3px;color:#fff;">
                 <option value="">全部</option>
                 <c:forEach items="${userList}" var="User">
+                    <c:if test="${User.id}==${goods.id}">
+                        <option value="${User.id}" selected>${User.userName}</option>
+                    </c:if>
                     <option value="${User.id}">${User.userName}</option>
                </c:forEach>
             </select>
             <span>审核结果:</span>
-            <select name="flag" id="falg" style="width:90px;background: #7288a9;border-radius: 3px;color:#fff;">
+            <select name="flag" id="flag" style="width:90px;background: #7288a9;border-radius: 3px;color:#fff;">
                 <option value="0">默认</option>
-                <option value="1">通过</option>
-                <option value="2">未通过</option>
+                <c:choose>
+                    <c:when test="${goods.flag==1}">
+                        <option value="1" selected>通过</option>
+                        <option value="2">未通过</option>
+                    </c:when>
+                    <c:when test="${goods.flag==2}">
+                        <option value="1" >通过</option>
+                        <option value="2" selected>未通过</option>
+                    </c:when>
+                    <c:otherwise>
+                        <option value="1">通过</option>
+                        <option value="2">未通过</option>
+                    </c:otherwise>
+                </c:choose>
+
             </select>
             <input type="submit" class="submit" value="查找"/>
         </p>

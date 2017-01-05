@@ -20,6 +20,15 @@ public class Goods {
 
     private String userid;// 发布人id
 
+     private int pagenum;
+
+    public int getPagenum() {
+        return pagenum;
+    }
+
+    public void setPagenum(int pagenum) {
+        this.pagenum = pagenum;
+    }
 
     @Override
     public String toString() {
@@ -30,8 +39,9 @@ public class Goods {
                 ", price=" + price +
                 ", type=" + type +
                 ", mark='" + mark + '\'' +
-                ", userid='" + userid + '\'' +
                 ", flag=" + flag +
+                ", userid='" + userid + '\'' +
+                ", pagenum=" + pagenum +
                 '}';
     }
 

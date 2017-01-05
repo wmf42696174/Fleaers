@@ -32,6 +32,7 @@ public class User implements UserDetails {
     private String email;
 
     private String address;
+    private int pagenum;
 
     public void setAge(int age) {
         this.age = age;
@@ -81,6 +82,15 @@ public class User implements UserDetails {
         this.type = type;
     }
 
+
+    public int getPagenum() {
+        return pagenum;
+    }
+
+    public void setPagenum(int pagenum) {
+        this.pagenum = pagenum;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -88,12 +98,13 @@ public class User implements UserDetails {
                 ", age=" + age +
                 ", userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
-                ", sex='" + sex + '\'' +
+                ", sex=" + sex +
                 ", phone='" + phone + '\'' +
                 ", role='" + role + '\'' +
                 ", type='" + type + '\'' +
                 ", email='" + email + '\'' +
                 ", address='" + address + '\'' +
+                ", pagenum=" + pagenum +
                 '}';
     }
 

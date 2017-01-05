@@ -23,4 +23,15 @@ public class RecordService {
     public List<Record>QueryRecordByBuyername(Map<String,Object> parameter){
         return recordMapper.QueryRecordByBuyername(parameter);
     }
+    public List<Record>QueryAllRecord(Map<String,Object> parameter){
+        return recordMapper.QueryAllRecord(parameter);
+    }
+
+    public int QueryCount(Map<String,Object> parameter){
+        return recordMapper.QueryCount(parameter);
+    }
+
+    public int QueryReCount(Map<String,Object> parameter){
+        return recordMapper.QueryReCount(parameter);
+    }
 }

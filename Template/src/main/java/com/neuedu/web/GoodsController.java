@@ -33,11 +33,23 @@ public class GoodsController {
     @RequestMapping(value = "showmygoodslist",method = {RequestMethod.POST,RequestMethod.GET})
     public ModelAndView ShowMyGoodsList(@ModelAttribute("goods")Goods goods,
                                         HttpServletRequest request){
-
+        int current=goods.getPagenum();
         ModelAndView mv=new ModelAndView();
         String userid=(String)request.getSession().getAttribute("loginid");
         goods.setUserid(userid);
+        System.out.println("sd"+current);
+        goods.setPagenum((current-1)*4);
+        int count=goodsService.QueryMyCount(goods);
+        if(count%4!=0){
+            count=count/4+1;
+        }else{
+            count=count/4;
+        }
+
         System.out.println(goods.toString());
+        mv.addObject("count",count);
+        mv.addObject("goods",goods);
+        mv.addObject("currentpagenum",current);
         List<Goods> goodsList=goodsService.QueryMyGoods(goods);
         mv.setViewName("ShowMyGoodsListIndex");
         mv.addObject("goodslist",goodsList);
@@ -54,9 +66,15 @@ public class GoodsController {
     @RequestMapping(value = "changegoodsinfo",method = {RequestMethod.POST,RequestMethod.GET})
     public ModelAndView ChangeGoodsInfo(@ModelAttribute("goods")Goods goods){
         int i=goodsService.ChangeGoodsInfo(goods);
-        ModelAndView mv=new ModelAndView();
-        mv.setViewName("main");
-        return mv;
+       // ModelAndView mv=new ModelAndView();
+    //    mv.setViewName("main");
+        //mv.addObject("changegoodstip","success");
+        return new ModelAndView("redirect:/goods/showmygoodslist?pagenum=1");
+    }
+    @RequestMapping(value = "deletegoods",method = {RequestMethod.GET,RequestMethod.POST})
+    public ModelAndView DeleteGoods(@RequestParam("id")String id){
+        int i=goodsService.DeleteGoodsById(id);
+        return new ModelAndView("redirect:/goods/showmygoodslist?pagenum=1");
     }
     @RequestMapping(value = "Return",method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView Return(){
@@ -73,7 +91,6 @@ public class GoodsController {
     @RequestMapping(value = "add",method = {RequestMethod.POST,RequestMethod.GET})
     public ModelAndView Add(@ModelAttribute("goods")Goods goods,
                             HttpServletRequest request){
-        ModelAndView mv=new ModelAndView();
         System.out.println(goods.toString());
         String s= UUID.randomUUID().toString();
         String id=s.substring(0,8)+s.substring(9,13)+s.substring(14,18)+s.substring(19,23)+s.substring(24);
@@ -82,13 +99,21 @@ public class GoodsController {
         String userid=(String)request.getSession().getAttribute("loginid");
         goods.setUserid(userid);
         int i=goodsService.AddGoods(goods);
-        mv.setViewName("main");
-        return mv;
+        return new ModelAndView("redirect:/goods/showmygoodslist?pagenum=1");
     }
     @RequestMapping(value = "checkgoods",method = {RequestMethod.GET,RequestMethod.POST})
     public ModelAndView CheckGoods(@ModelAttribute("goods")Goods goods){
         List<User> userList=new ArrayList<User>();
         User user=null;
+        int current=goods.getPagenum();
+        System.out.println("sd"+current);
+        goods.setPagenum((current-1)*4);
+        int count=goodsService.QueryCount(goods);
+        if(count%4!=0){
+            count=count/4+1;
+        }else{
+            count=count/4;
+        }
         List<String> idList=goodsService.QueryAllUserId();
         for (String id:idList) {
             user=userService.QueryUserById(id);
@@ -96,6 +121,9 @@ public class GoodsController {
         }
         ModelAndView mv=new ModelAndView();
         mv.addObject("userList",userList);
+        mv.addObject("count",count);
+        mv.addObject("goods",goods);
+        mv.addObject("currentpagenum",current);
         List<Goods> goodsList=goodsService.QueryAllyGoods(goods);
         mv.addObject("goodsList",goodsList);
         mv.setViewName("CheckGoodsListIndex");
@@ -105,8 +133,9 @@ public class GoodsController {
     public ModelAndView ChangeFlag(@ModelAttribute("goods")Goods goods){
         System.out.println("asd"+goods.toString());
         int i=goodsService.ChangeGoodsFlag(goods);
-        ModelAndView mv=new ModelAndView();
-        mv.setViewName("main");
+        ModelAndView mv=new ModelAndView("redirect:/goods/checkgoods?pagenum=1");
+        mv.addObject("changetip","success");
+       // mv.setViewName("main");
         return mv;
 
     }
@@ -115,6 +144,14 @@ public class GoodsController {
         ModelAndView mv=new ModelAndView();
         List<User> userList=new ArrayList<User>();
         User user=null;
+        int count=goodsService.QueryFlagedCount(goods);
+        if(count%6!=0){
+            count=count/6+1;
+        }else{
+            count=count/6;
+        }
+        int current=goods.getPagenum();
+        goods.setPagenum((current-1)*6);
         List<String> idList=goodsService.QueryAllUserId();
         for (String id:idList) {
             user=userService.QueryUserById(id);
@@ -125,6 +162,9 @@ public class GoodsController {
         mv.addObject("goodsList",goodsList);
         List<String> typeList=goodsService.QueryGoodsType();
         mv.addObject("typeList",typeList);
+        mv.addObject("count",count);
+        mv.addObject("goods",goods);
+        mv.addObject("currentpagenum",current);
         mv.setViewName("ShowFlagedGoodsListIndex");
         return mv;
     }

@@ -29,4 +29,8 @@ public class WantService {
     public List<String>QueryAllName(){
         return wantMapper.QueryAllName();
     }
+
+    public int QueryCount(Map<String,Object> parameter){
+        return wantMapper.QueryCount(parameter);
+    }
 }
